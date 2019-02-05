@@ -17,7 +17,6 @@
 5.逆向工程 mybatis-gennerate
 
 过程:
-<img src="https://github.com/wantao666/java-project0/blob/master/result-image/process.png"></img>
 1.创建maven工程
 2.引入项目依赖jar包
   .spring
@@ -64,3 +63,7 @@
 <img src="https://github.com/wantao666/java-project0/blob/master/result-image/update.png"></img>
 删除
 <img src="https://github.com/wantao666/java-project0/blob/master/result-image/delete.png"></img>
+流程
+<img src="https://github.com/wantao666/java-project0/blob/master/result-image/process.png"></img>
+参考视频
+<a href="https://www.bilibili.com/video/av34402788/"></a>
