@@ -66,4 +66,4 @@
 流程
 <img src="https://github.com/wantao666/java-project0/blob/master/result-image/process.png"></img>
 参考视频
-<a target="_blank" href="https://www.bilibili.com/video/av34402788/">点击我</a>
+<a target="_blank" href="https://pan.baidu.com/s/1077lpVwMiwhw4L6CHSHW1w">点击我</a>
