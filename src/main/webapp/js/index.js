@@ -355,13 +355,31 @@ function deleteEmployee(element) {
 	});
 }
 // 完成全选or全不选
+// function selectCheckBox() {
+// 	$("#checkAll").click(function() {
+// 		// 这里注意dom原生的属性使用prop,自定义属性使用attr
+// 		// alert($(this).prop("checked"));
+// 		$(".check_item").prop("checked", $(this).prop("checked"));
+// 	});
+// }
+
+// 完成全选or全不选改进(为什么要改进请看issue1 https://github.com/wantao666/java-project0/issues/1)
 function selectCheckBox() {
+	$("#checkAll").prop("checked", null);
+	$(".check_item").click(function() {
+		if ($("input[type=checkbox].check_item:checked").length == 5) {
+			$("#checkAll").prop("checked", "checked");
+		} else {
+			$("#checkAll").prop("checked", null);
+		}
+	});
 	$("#checkAll").click(function() {
 		// 这里注意dom原生的属性使用prop,自定义属性使用attr
 		// alert($(this).prop("checked"));
 		$(".check_item").prop("checked", $(this).prop("checked"));
 	});
 }
+
 function deleteAll() {// 批量删除
 	var empNames = "";
 	var delIds = "";
